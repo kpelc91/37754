@@ -3,7 +3,7 @@ console.log(`AJAX - Warsztat - Pobierz dane po kliknięciu w przycisk`);
 let btnGetData = document.getElementById('get-data');
 
 const getData = () => {
-    fetch('https://akaddemia108.pl/api/ajax/get-post.php')
+    fetch('https://akademia108.pl/api/ajax/get-post.php')
         .then(res => res.json())
         .then(data => {
 
